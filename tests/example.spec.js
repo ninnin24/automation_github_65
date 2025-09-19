@@ -18,6 +18,10 @@ test('get started link', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
 
-test('Faceook', async ({ page }) => {
-  await page.goto('https://Faceook.com/');
+test('faceook', async ({ page }) => {
+  await page.goto('https://www.faceook.com/');
+});
+
+test('ig', async ({ page }) => {
+  await page.goto('https://instagram.com/');
 });
