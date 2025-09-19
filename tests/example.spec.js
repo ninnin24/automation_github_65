@@ -19,7 +19,7 @@ test('get started link', async ({ page }) => {
 });
 
 test('faceook', async ({ page }) => {
-  await page.goto('https://www.faceook.com/');
+  await page.goto('https://www.Facebook.com/');
 });
 
 test('ig', async ({ page }) => {
